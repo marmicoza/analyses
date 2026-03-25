@@ -65,10 +65,10 @@ De nos analyses, il ressort que :
 Que dit le rapport de l'EDS ?
 
 - [x] Les résultats de l’EDSB-V 2017-2018 montrent 
-qu’environ sept ménages sur dix (71 %) consomment 
+qu’environ sept ménages sur dix **71%** consomment 
 de l’eau provenant d’une source améliorée.
 - [x] À l’opposé, les ménages dont l’eau de consommation ne 
 provient pas d’une source améliorée représentent 
-28 %.
+**28%**.
 
 
