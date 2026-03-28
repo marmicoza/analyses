@@ -2,7 +2,7 @@
 ---
 
 ## Question spécifique
-Quelles catégories de sources d'approvisionnement en eau les ménages utilisent-ils (sources améliorées, sources non-améliorées, autres)?
+Quelles catégories de sources d'approvisionnement en eau les ménages utilisent-ils au Bénin (sources améliorées, sources non-améliorées, autres)?
 ---
 
 ## MÉTHODOLOGIE
@@ -17,24 +17,20 @@ Quelles catégories de sources d'approvisionnement en eau les ménages utilisent
 | HV201 | Qualitative | Disponible dans la base HR (Household Recode) Elle contient les différentes sources d’eau potable. | Canalisé dans l'habitation, Raccordement par canalisation à la cour/au terrain, Raccordement par canalisation au voisin, Robinet public/borne-fontaine, Puits tubulaire ou forage, Puits protégé, Puits non protégé, Source protégée, Source non protégée, Rivière/barrage/lac/étang/ruisseau/canal/canal d'irrigation, Eau de pluie, Camion-citerne, Chargeuse avec petite citerne, Eau en bouteille, Sachets d'eau, Autre |
 | SWATER | Qualitative | Variable créée à partir de la variable HV201 contenant la catégorisation des sources d’eau potable en sources améliorées ou non améliorées | **Sources Améliorées :** Canalisé dans l'habitation, Raccordement par canalisation à la cour/au terrain, Raccordement par canalisation au voisin, Robinet public/borne-fontaine, Puits tubulaire ou forage, Puits protégé, Source protégée, Eau de pluie. **Sources non Améliorées :** Source non protégée, Puits non protégé, Rivière/barrage/lac/étang/ruisseau/canal/canal d'irrigation, Camion-citerne, Chargeuse avec petite citerne, Eau en bouteille, Sachets d'eau |
 
-- ***Valeurs manquantes :*** 27 sur 14 156 soit 0.2%, ce qui est donc négligeable. Nous avons donc écarté les valeurs manquantes avant de poursuivre notre analyse. Cette suppression n’entraîne pas de perte d’informations significative. Nous avons donc analysé au total 14 129 observations.
+- ***Valeurs manquantes :*** 27 sur 14 156 soit 0.2%, ce qui est donc négligeable. Nous avons donc écarté les valeurs manquantes avant de poursuivre notre analyse. Cette suppression n’entraîne pas de perte d’informations significative. Nous avons analysé au total 14 129 observations.
 
 ---
-## COMMANDES SPSS
-
-- **Pondération de la base.**
+## COMMANDES 
+### COMMANDES SPSS
 ```spss
+* Pondération de la base.
 COMPUTE POIDS=V005/1000000.
 WEIGHT BY POIDS.
-```
 
-- **Répartition des sources d'eau.**
-```spss
+* Répartition des sources d'eau.
 FREQ HV201.
-```
 
-- **Créer les catégories de sources d'eau: source améliorées, non améliorées et autres.**
-```spss
+* Création des catégories de sources d'eau: source améliorées, non améliorées et autres.
 RECODE HV201 (11 thru 14=1) (21=1) (31=1) (41=1) (51=1) 
     (32=2) (42=2) (43=2) (61 thru 62=2)
      (96=3)   
@@ -43,13 +39,15 @@ VARIABLE LABELS  SWATER "Sources d'eau".
 VALUE LABELS SWATER 1"Ameliorees" 
 2"Non ameliorees" 
 3"Autres".
-```
 
-- **Répartition des catégories de sources d'eau.**
-```spss
+*Répartition des catégories de sources d'eau.
 FREQ SWATER.
 ```
 
+### COMMANDES R
+```r
+
+```
 ---
 ## RÉSULTATS
 Quelles catégories de sources d'approvisionnement en eau les ménages utilisent-ils (sources améliorées, sources non-améliorées, autres) ?
@@ -62,7 +60,7 @@ De nos analyses, il ressort que :
 
 ---
 ## VÉRIFICATION DES RÉSULTATS
-Que dit le rapport de l'EDS ?
+Que dit le rapport de l'EDS-V 2017-2018 ?
 
 - [x] Les résultats de l’EDSB-V 2017-2018 montrent 
 qu’environ sept ménages sur dix **71%** consomment 
