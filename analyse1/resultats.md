@@ -1,8 +1,4 @@
-# ANALYSE 1
----
-
-## Question spécifique
-Quelles catégories de sources d'approvisionnement en eau les ménages utilisent-ils au Bénin (sources améliorées, sources non-améliorées, autres)?
+## Quelles catégories de sources d'approvisionnement en eau les ménages utilisent-ils au Bénin (sources améliorées, sources non-améliorées, autres)?
 ---
 
 ## MÉTHODOLOGIE
@@ -40,7 +36,7 @@ VALUE LABELS SWATER 1"Ameliorees"
 2"Non ameliorees" 
 3"Autres".
 
-*Répartition des catégories de sources d'eau.
+* Répartition des catégories de sources d'eau.
 FREQ SWATER.
 ```
 
