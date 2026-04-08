@@ -62,7 +62,7 @@ de l’eau provenant d’une source améliorée.
 provient pas d’une source améliorée représentent 
 **28%**.
 
-
+---
 ## DOCUMENTS UTILISÉS
 - Rapport de l'Enquête Démographique et de Santé (EDS) du Bénin 2017-2018
 - Guide to DHS Statistics DHS-7
