@@ -4,7 +4,7 @@
 ## CONTEXTE ET MÉTHODOLOGIE
 
 Cette analyse s’inscrit dans l’objectif d’affiner notre maîtrise des outils d’analyses statistiques. 
-Pour répondre à cette question, nous avons utiliser la base de données de la **Cinquième Enquête Démographique et de Santé du Bénin de 2017-2018 (EDSB-V 2017-2018)**. La population cible est l’ensemble des ménages enquêtés et donc c’est la base **BJHR71FL** (HR pour Household Recode) qui a été utilisé. Les analyses ont été faites avec le logiciel **SPSS** et les variables utilisées sont présentées dans le tableau ci-dessous.
+Pour répondre à cette question, nous avons utilisé la base de données de la **Cinquième Enquête Démographique et de Santé du Bénin de 2017-2018 (EDSB-V 2017-2018)**. La population cible est l’ensemble des ménages enquêtés et donc c’est la base **BJHR71FL** (HR pour Household Recode) qui a été utilisé. Les analyses ont été faites avec le logiciel **SPSS** et les variables utilisées sont présentées dans le tableau ci-dessous.
 
 | Variables | Type | Description | Valeurs/modalités |
 | --------- | -----| ------------| ------------------|
