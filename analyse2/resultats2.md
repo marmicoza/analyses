@@ -39,7 +39,7 @@ GRAPH
 
 ---
 ## RÉSULTATS
-![Temps pour s'aprovisionner en eau](<Temps pour s'aprovisionner en eau.png>)
+![Temps pour s'aprovisionner en eau](<Temps pour s'aprovisionner en eau.png>) 
 
 De nos analyses, il ressort que :
 - environ **71%** de la population utilise une source d’eau Améliorée (canalisé dans l'habitation, raccordement par canalisation à la cour/au terrain, raccordement par canalisation au voisin, robinet public/borne-fontaine, puits tubulaire ou forage, puits protégé, source protégée, eau de pluie) ;
@@ -61,3 +61,6 @@ provient pas d’une source améliorée représentent
 - **Guide to DHS Statistics DHS-7** pour formuler notre question d'analyse et pour le recodage des variables plus précisément la **section 2.1 (*Household Drinking Water*) du chapitre 2 (*Population and Housing*)** 
 - **Rapport de la Cinquième Enquête Démographique et de Santé du Bénin de 2017-2018 (EDSB-V 2017-2018)** pour la vérification de nos résultats. Plus précisément la **section 2.1 (*SOURCES D’APPROVISIONNEMENT EN EAU DE BOISSON ET 
 TRAITEMENT*) du chapitre 2 (*CARACTÉRISTIQUES DES LOGEMENTS ET DE LA POPULATION DES MÉNAGES*)** .
+
+
+	
