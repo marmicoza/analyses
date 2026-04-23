@@ -13,7 +13,7 @@ Pour répondre à cette question, nous avons utilisé la base de données de la 
 | **HV201** | Qualitative | Disponible dans la base HR (Household Recode) Elle contient les différentes sources d’eau potable. | Canalisé dans l'habitation, Raccordement par canalisation à la cour/au terrain, Raccordement par canalisation au voisin, Robinet public/borne-fontaine, Puits tubulaire ou forage, Puits protégé, Puits non protégé, Source protégée, Source non protégée, Rivière/barrage/lac/étang/ruisseau/canal/canal d'irrigation, Eau de pluie, Camion-citerne, Chargeuse avec petite citerne, Eau en bouteille, Sachets d'eau, Autre |
 | **SWATER** | Qualitative | Variable créée à partir de la variable HV201 contenant la catégorisation des sources d’eau potable en sources améliorées ou non améliorées | **Sources Améliorées :** Canalisé dans l'habitation, Raccordement par canalisation à la cour/au terrain, Raccordement par canalisation au voisin, Robinet public/borne-fontaine, Puits tubulaire ou forage, Puits protégé, Source protégée, Eau de pluie. **Sources non Améliorées :** Source non protégée, Puits non protégé, Rivière/barrage/lac/étang/ruisseau/canal/canal d'irrigation, Camion-citerne, Chargeuse avec petite citerne, Eau en bouteille, Sachets d'eau |
 
-Nous avons observé **27 valeurs manquantes sur 14 156 observation soit 0.2%**, ce qui est donc négligeable. Nous avons donc écarté les valeurs manquantes avant de poursuivre notre analyse. Nous avons analysé au total **14 129 observations**.
+Nous avons observé **27 valeurs manquantes sur 14 156 observation soit 0.2%**, ce qui est donc négligeable. Ces valeurs manquantes n'ont donc pas été considérées pour l'analyse. Les interprétations ont été seulement faites sur les obsevations valides qui étaient de **14 129**.
 
 **COMMANDES SPSS**
 ```spss
@@ -46,11 +46,13 @@ GRAPH
 
 ---
 ## RÉSULTATS
-![Répartition des catégories de sources d'eau](<Répartition des catégories de sources d'eau.png>)
+![Tableau récapitulatif des fréquences](Image1.png) 
+
+![Graphique: Répartition des sources d'eau](Image2.png)
 
 De nos analyses, il ressort que :
 - environ **71%** de la population utilise une source d’eau Améliorée (canalisé dans l'habitation, raccordement par canalisation à la cour/au terrain, raccordement par canalisation au voisin, robinet public/borne-fontaine, puits tubulaire ou forage, puits protégé, source protégée, eau de pluie) ;
-- environ **28%** utilisant une source non Améliorée. Ce pourcentage varie en fonction du milieu de résidence (urbain ou rurale).
+- environ **28%** utilisant une source non améliorée (source non protégée, Puits non protégé, Rivière/barrage/lac/étang/ruisseau/canal/canal d'irrigation, Camion-citerne, Chargeuse avec petite citerne, Eau en bouteille, Sachets d'eau)
 
 ---
 ## VÉRIFICATION DES RÉSULTATS
@@ -69,4 +71,3 @@ provient pas d’une source améliorée représentent
 - **Rapport de la Cinquième Enquête Démographique et de Santé du Bénin de 2017-2018 (EDSB-V 2017-2018)** pour la vérification de nos résultats. Plus précisément la **section 2.1 (*SOURCES D’APPROVISIONNEMENT EN EAU DE BOISSON ET 
 TRAITEMENT*) du chapitre 2 (*CARACTÉRISTIQUES DES LOGEMENTS ET DE LA POPULATION DES MÉNAGES*)** .
 
-![alt text](Image1.png) ![alt text](Image2.png)
