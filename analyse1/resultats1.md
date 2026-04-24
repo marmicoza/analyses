@@ -1,9 +1,9 @@
-## Quelles catégories de sources d'approvisionnement en eau les ménages utilisent-ils au Bénin (sources améliorées, sources non-améliorées, autres)?
+## QUESTION D'ANALYSE 
+Quelles catégories de sources d'approvisionnement en eau les ménages utilisent-ils au Bénin (sources améliorées, sources non-améliorées, autres)?
 ---
 
 ## CONTEXTE ET MÉTHODOLOGIE
 
-Cette analyse s’inscrit dans l’objectif d’affiner notre maîtrise des outils d’analyses statistiques. 
 Pour répondre à cette question, nous avons utilisé la base de données de la **Cinquième Enquête Démographique et de Santé du Bénin de 2017-2018 (EDSB-V 2017-2018)**. La population cible est l’ensemble des ménages enquêtés et donc c’est la base **BJHR71FL** (HR pour Household Recode) qui a été utilisé. Les analyses ont été faites avec le logiciel **SPSS** et les variables utilisées sont présentées dans le tableau ci-dessous.
 
 | Variables | Type | Description | Valeurs/modalités |
@@ -47,9 +47,9 @@ GRAPH
 ---
 ## RÉSULTATS
 ![Tableau récapitulatif des fréquences](Image1.png) 
-
+**Tableau récapitulatif des fréquences**
 ![Graphique: Répartition des sources d'eau](Image2.png)
-
+**Figure:** Répartition des sources d'eau
 De nos analyses, il ressort que :
 - environ **71%** de la population utilise une source d’eau Améliorée (canalisé dans l'habitation, raccordement par canalisation à la cour/au terrain, raccordement par canalisation au voisin, robinet public/borne-fontaine, puits tubulaire ou forage, puits protégé, source protégée, eau de pluie) ;
 - environ **28%** utilisant une source non améliorée (source non protégée, Puits non protégé, Rivière/barrage/lac/étang/ruisseau/canal/canal d'irrigation, Camion-citerne, Chargeuse avec petite citerne, Eau en bouteille, Sachets d'eau)
@@ -67,7 +67,7 @@ provient pas d’une source améliorée représentent
 
 ---
 ## DOCUMENTS UTILISÉS
-- **Guide to DHS Statistics DHS-7** pour formuler notre question d'analyse et pour le recodage des variables plus précisément la **section 2.1 (*Household Drinking Water*) du chapitre 2 (*Population and Housing*)** 
-- **Rapport de la Cinquième Enquête Démographique et de Santé du Bénin de 2017-2018 (EDSB-V 2017-2018)** pour la vérification de nos résultats. Plus précisément la **section 2.1 (*SOURCES D’APPROVISIONNEMENT EN EAU DE BOISSON ET 
-TRAITEMENT*) du chapitre 2 (*CARACTÉRISTIQUES DES LOGEMENTS ET DE LA POPULATION DES MÉNAGES*)** .
+- **Guide to DHS Statistics DHS-7**, **section 2.1** (Household Drinking Water), **chapitre 2** (Population and Housing) https://dhsprogram.com/pubs/pdf/DHSG1/Guide_to_DHS_Statistics_DHS-7.pdf.
+- Rapport de la **Cinquième Enquête Démographique et de Santé du Bénin de 2017-2018** (EDSB-V 2017-2018), **section 2.1** (SOURCES D’APPROVISIONNEMENT EN EAU DE BOISSON ET 
+TRAITEMENT), **chapitre 2** (CARACTÉRISTIQUES DES LOGEMENTS ET DE LA POPULATION DES MÉNAGES)* https://instad.bj/images/docs/insae-statistiques/enquetes-recensements/EDS/2017-2018/1.Benin_EDSBV_Rapport_final.pdf.
 
